@@ -287,11 +287,11 @@
 .site-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   row-gap: 8px;
   max-width: 422px;
   margin: 0;
   padding: 0;
+  padding-top: 42px;
   list-style: none;
 }
 
@@ -377,11 +377,11 @@
 .user-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   row-gap: 8px;
   max-width: 450px;
   margin: 0;
   padding: 0;
+  padding-top: 34px;
   list-style: none;
 }
 
@@ -400,8 +400,9 @@
 }
 
 .user-list__contact-phone {
+  display: block;
   margin-right: 8px;
-  padding: 0 8px;
+  padding: 8px 8px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
